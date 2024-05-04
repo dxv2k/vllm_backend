@@ -106,7 +106,7 @@ class LLMClient:
         sampling_parameters = {
             "temperature": "0.1",
             "top_p": "0.95",
-            "max_tokens": "100",
+            "max_tokens": "512",
         }
         exclude_input_in_output = self._flags.exclude_inputs_in_outputs
         if self._flags.lora_name is not None:

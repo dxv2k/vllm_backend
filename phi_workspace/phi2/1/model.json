@@ -1,0 +1,6 @@
+{
+    "model":"microsoft/phi-2",
+    "disable_log_requests": "true",
+    "gpu_memory_utilization": 0.95,
+    "enforce_eager": "true" 
+}
